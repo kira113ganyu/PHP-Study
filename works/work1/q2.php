@@ -4,4 +4,20 @@
 $num = -5;
 
 // TODO: ここにコードを追記
-echo $num;
+echo $num - 5;
+
+if ($num > 0) {
+    echo "numは正の数です\n";
+}
+
+echo $num - 5;
+
+if ($num < 0) {
+    echo "numは負の数です\n";
+}
+
+echo $num - 5;
+
+if ($num == 0) {
+    echo "numは0です\n";
+}
